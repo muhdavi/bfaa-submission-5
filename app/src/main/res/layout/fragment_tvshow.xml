@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".movie.MovieFragment">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/rv_movie_fragment"
+        app:layout_constraintEnd_toEndOf="@+id/rv_movie_fragment"
+        app:layout_constraintStart_toStartOf="@id/rv_movie_fragment"
+        app:layout_constraintTop_toTopOf="@id/rv_movie_fragment"
+        style="?android:attr/progressBarStyle" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_tv_fragment"
+        tools:listitem="@layout/layout_list_item" />
+
+</FrameLayout>

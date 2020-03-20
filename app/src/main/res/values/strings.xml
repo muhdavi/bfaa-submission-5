@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Movie Catalogue Final</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tvshow">TV Show</string>
+    <string name="title_favorite">Favorite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tvshow">TV Show</string>
+    <string name="has_delete">has delete from Favorite.</string>
+    <string name="hasnot_delete">has not delete from Favorite.</string>
+    <string name="hasnot_add">has not add to Favorite.</string>
+    <string name="has_add">has add to Favorite.</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="rate">5.0</string>
+    <string name="poster_img">Image Poster</string>
+    <string name="overview">Overview</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="img_content">Image Poster</string>
+    <string name="title">Title</string>
+    <string name="detail">Detail</string>
+    <string name="release_date">Release Date</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="detail_tvshow">Detail TV Show</string>
+    <string name="setting">Setting</string>
+    <string name="search">Search</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="today_release">Today Release</string>
+    <string name="set_daily_reminder">Daily Reminder is Activated</string>
+    <string name="unset_daily_reminder">Daily Reminder is Inactivated</string>
+    <string name="set_today_release">Today Release is Activated</string>
+    <string name="unset_today_release">Today Release is Inactivated</string>
+    <string name="message_daily_reminder">Daily Remainder</string>
+    <string name="message_today_release">Message today Release</string>
+    <string name="search_hint_movie">search hit movie</string>
+</resources>
